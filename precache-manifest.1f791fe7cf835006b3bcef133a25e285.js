@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9bb77b53bbeaaa12060256e7da319f0",
+    "revision": "4ecea17310d4ae4a00e1384c96a1f9df",
     "url": "/voting_challenge_client/index.html"
   },
   {
-    "revision": "c7afd4ec8deab8c48b9d",
+    "revision": "73522462e64f8f5c97bf",
     "url": "/voting_challenge_client/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "6f6fbef54364378774fd",
-    "url": "/voting_challenge_client/static/js/2.1d8bc7fe.chunk.js"
+    "revision": "35a49a788007c982d6d1",
+    "url": "/voting_challenge_client/static/js/2.c8a650ae.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/voting_challenge_client/static/js/2.1d8bc7fe.chunk.js.LICENSE.txt"
+    "url": "/voting_challenge_client/static/js/2.c8a650ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c7afd4ec8deab8c48b9d",
-    "url": "/voting_challenge_client/static/js/main.407c26bc.chunk.js"
+    "revision": "73522462e64f8f5c97bf",
+    "url": "/voting_challenge_client/static/js/main.cc12f56a.chunk.js"
   },
   {
     "revision": "8256eb880810aba1e7fa",
