@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/voting_challenge_client/static/css/main.5f361e03.chunk.css",
-    "main.js": "/voting_challenge_client/static/js/main.cc12f56a.chunk.js",
-    "main.js.map": "/voting_challenge_client/static/js/main.cc12f56a.chunk.js.map",
+    "main.js": "/voting_challenge_client/static/js/main.21360c85.chunk.js",
+    "main.js.map": "/voting_challenge_client/static/js/main.21360c85.chunk.js.map",
     "runtime-main.js": "/voting_challenge_client/static/js/runtime-main.11c6fd06.js",
     "runtime-main.js.map": "/voting_challenge_client/static/js/runtime-main.11c6fd06.js.map",
     "static/js/2.c8a650ae.chunk.js": "/voting_challenge_client/static/js/2.c8a650ae.chunk.js",
     "static/js/2.c8a650ae.chunk.js.map": "/voting_challenge_client/static/js/2.c8a650ae.chunk.js.map",
     "index.html": "/voting_challenge_client/index.html",
-    "precache-manifest.1f791fe7cf835006b3bcef133a25e285.js": "/voting_challenge_client/precache-manifest.1f791fe7cf835006b3bcef133a25e285.js",
+    "precache-manifest.e8f6db2f63377b18f3c91301ffd8d833.js": "/voting_challenge_client/precache-manifest.e8f6db2f63377b18f3c91301ffd8d833.js",
     "service-worker.js": "/voting_challenge_client/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/voting_challenge_client/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.c8a650ae.chunk.js.LICENSE.txt": "/voting_challenge_client/static/js/2.c8a650ae.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.11c6fd06.js",
     "static/js/2.c8a650ae.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.cc12f56a.chunk.js"
+    "static/js/main.21360c85.chunk.js"
   ]
 }
