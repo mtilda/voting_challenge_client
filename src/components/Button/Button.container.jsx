@@ -1,9 +1,6 @@
-import React from 'react'
+import React from "react";
+import Button from "./Button";
 
-export default function ButtonContainer() {
-    return (
-        <div>
-            
-        </div>
-    )
+export const ButtonContainer = ({label}) => {
+    return <Button label={label}/>
 }
