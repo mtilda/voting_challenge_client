@@ -1,7 +1,4 @@
 import React from "react";
+import "./Button.css";
 
-export default function Button({label}) {
-    return (
-    <button>{label}</button>
-    )
-}
+export default ({ label }) => <button>{label}</button>;
