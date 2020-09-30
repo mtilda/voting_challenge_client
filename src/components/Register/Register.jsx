@@ -18,4 +18,4 @@ export default ({ registrationLinks, isActive }) =>
                 </ul>
             </div>
         }
-    </div>
+    </div>;
