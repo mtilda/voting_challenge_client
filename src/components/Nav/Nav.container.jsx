@@ -1,9 +1,6 @@
-import React from 'react'
+import React from "react";
+import Nav from "./Nav";
 
-export default function NavContainer() {
-    return (
-        <div>
-            
-        </div>
-    )
+export const NavContainer = () => {
+    return <Nav/>
 }
