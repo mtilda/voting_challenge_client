@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 0 20px 0 20px;
+}
