@@ -1,28 +1,25 @@
-import React from 'react';
+import React from "react";
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route
+  HashRouter,
+  Route,
+  Switch
 } from "react-router-dom";
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename="/">
       {/* Probably put a nav here */}
 
       <Switch>
-        <Route path="/home">
-          Home
+        <Route exact path="/">
+          <div><h2>Home</h2></div>
         </Route>
-        <Route path="/somewhereelse">
-          Somewhere Else
-        </Route>
-        <Route path="*">
-          404
+        <Route exact path="*">
+          <div><h2>404</h2></div>
         </Route>
       </Switch>
-    </Router>
+    </HashRouter>
   );
 }
 
