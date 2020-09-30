@@ -1,0 +1,14 @@
+.sample {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: rgb(250, 187, 51);
+}
+
+.red {
+    background-color: rgb(206, 64, 64);
+}
+
+.green {
+    background-color: rgb(93, 218, 93);
+}
