@@ -1,6 +1,5 @@
 import React from "react";
-import Nav from "./components/Nav/Nav.container";
-
+import {NavContainer as Nav} from "./components/Nav/Nav.container";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import VoterStatsContainer from "./components/VoterStats/VoterStats.container";
