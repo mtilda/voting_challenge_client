@@ -3,6 +3,10 @@
   color: white;
 }
 
+.spreading-awareness img {
+    width: 20vw;
+}
+
 .did-you-know-container {
     display: flex;
     justify-content: space-around;

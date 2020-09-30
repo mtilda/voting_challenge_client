@@ -7,7 +7,7 @@ export default () => (
     <h1>Spreading Awareness</h1>
     <div className="did-you-know-container">
       <img
-        src="https://unsplash.com/photos/PXVQ7SNqdME"
+        src="https://res.cloudinary.com/hannahbannan/image/upload/v1601504148/Voting%20App/chris-murray-PXVQ7SNqdME-unsplash_fdgouq.jpg"
         alt="Talk to your friends about voting!"
       />
       <div className="did-you-know-right">

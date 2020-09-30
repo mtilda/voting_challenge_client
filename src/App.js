@@ -1,9 +1,9 @@
 import React from "react";
-import {NavContainer as Nav} from "./components/Nav/Nav.container";
+import { NavContainer as Nav } from "./components/Nav/Nav.container";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import VoterStatsContainer from "./components/VoterStats/VoterStats.container";
-import {RegisterContainer} from "./components/Register/Register.container";
-import {SpreadingAwarenessContainer as SpreadingAwareness} from "./components/SpreadingAwareness/SpreadingAwareness.container"
+import { VotingStatsContainer as VotingStats } from "./components/VotingStats/VotingStats.container";
+import { RegisterContainer } from "./components/Register/Register.container";
+import { SpreadingAwarenessContainer as SpreadingAwareness } from "./components/SpreadingAwareness/SpreadingAwareness.container";
 import "./App.css";
 
 function App() {
@@ -18,14 +18,9 @@ function App() {
       </header>
       <HashRouter basename="/">
         <Switch>
-          <Route path="/voter-stats" component={VoterStatsContainer} />
+          <Route path="/voting-stats" component={VotingStats} />
           <Route path="/register" component={RegisterContainer} />
-          <Route exact path="/">
-            <div>
-              <h2>Home</h2>
-              <SpreadingAwareness/>
-            </div>
-          </Route>
+          <Route exact path="/" />
           <Route exact path="*">
             <div>
               <h2>404</h2>
@@ -33,6 +28,10 @@ function App() {
           </Route>
         </Switch>
       </HashRouter>
+      <div className="main">
+     <SpreadingAwareness/>
+      <VotingStats/>
+      </div>
     </div>
   );
 }
