@@ -12,7 +12,7 @@ export default ({ registrationLinks, isActive }) =>
                 <ul>
                     {registrationLinks.map( (entry, index) =>
                         <li key={index}>
-                            <a href={entry.registrationUrl}>{entry.state}</a>
+                            <a href={entry.url}>{entry.state}</a>
                         </li>
                     )}
                 </ul>
