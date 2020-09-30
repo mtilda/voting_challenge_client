@@ -1,0 +1,13 @@
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("../../Images/cover_page.jpeg");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

@@ -10,5 +10,8 @@ export default () => (
     <Link to="/register" className="nav-link">
       Register Now
     </Link>
+    <Link to="/" className="nav-link">
+     Home
+    </Link>
   </div>
 );
