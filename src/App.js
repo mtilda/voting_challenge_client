@@ -3,7 +3,8 @@ import {NavContainer as Nav} from "./components/Nav/Nav.container";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import VoterStatsContainer from "./components/VoterStats/VoterStats.container";
-import RegisterContainer from "./components/Register/Register.container";
+import {RegisterContainer} from "./components/Register/Register.container";
+import {FooterContainer as Footer} from "./components/Footer/Footer.container";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           </Route>
         </Switch>
       </HashRouter>
+      <Footer/>
     </div>
   );
 }
