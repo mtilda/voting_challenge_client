@@ -1,9 +1,10 @@
 import React from "react";
 import {NavContainer as Nav} from "./components/Nav/Nav.container";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import "./App.css";
 import VoterStatsContainer from "./components/VoterStats/VoterStats.container";
-import RegisterContainer from "./components/Register/Register.container";
+import {RegisterContainer} from "./components/Register/Register.container";
+import {SpreadingAwarenessContainer as SpreadingAwareness} from "./components/SpreadingAwareness/SpreadingAwareness.container"
+import "./App.css";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/">
             <div>
               <h2>Home</h2>
+              <SpreadingAwareness/>
             </div>
           </Route>
           <Route exact path="*">
