@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ButtonContainer as Button } from "../Button/Button.container";
 import { Container, Row, Col } from "react-bootstrap";
 import "./SpreadingAwareness.css";
@@ -15,26 +16,31 @@ export const SpreadingAwareness = () => (
         <Col>
           <div className="did-you-know-container">
             <Col>
-            <img
-              src="https://res.cloudinary.com/hannahbannan/image/upload/v1601504148/Voting%20App/chris-murray-PXVQ7SNqdME-unsplash_fdgouq.jpg"
-              alt="Talk to your friends about voting!"
-            />
+              <img
+                src="https://res.cloudinary.com/hannahbannan/image/upload/v1601504148/Voting%20App/chris-murray-PXVQ7SNqdME-unsplash_fdgouq.jpg"
+                alt="Talk to your friends about voting!"
+              />
             </Col>
             <Col>
-            <div className="did-you-know-right">
-              <h2>Did you know?</h2>
-              <p>
-                According to the US Election Project, only <strong>43% of voters age
-                18-29</strong> participated in the 2016 Election
-              </p>
-            </div>
+              <div className="did-you-know-right">
+                <h2>Did you know?</h2>
+                <p>
+                  According to the US Election Project, only{" "}
+                  <strong>43% of voters age 18-29</strong> participated in the
+                  2016 Election
+                </p>
+              </div>
             </Col>
           </div>
         </Col>
         <Col xs="1"></Col>
       </Row>
-      <h1>Your Vote. Your Voice. <br/> Make it Count!</h1>
-      <Button label="Learn More" />
+      <h1>
+        Your Vote. Your Voice. <br /> Make it Count!
+      </h1>
+      <Link to="voting-stats">
+        <Button label="Learn More" />
+      </Link>
     </div>
   </Container>
 );
