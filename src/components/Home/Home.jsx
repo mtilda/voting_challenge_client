@@ -5,11 +5,15 @@ import { FaRegEdit, FaBookOpen, FaMapMarked, FaRegAddressCard, FaVoteYea } from 
 
 export default () => (
     <>
-        <div className="bg"></div>
+        <div className="bg">
+            <div class="text-block">
+                <h4>Let Your Voice be heard!</h4>
+            </div>
+        </div>
         <h1 className="title">
             How to Vote
         </h1>
-        <div className = "text-center" >
+        <div className = "text-center">
             <FaRegEdit size={59} color="#DA313C"/>
             <span className="text-center"> Register to vote with your state</span>
         </div>
