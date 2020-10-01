@@ -1,26 +1,49 @@
 import React from "react";
 import { MapContainer as Map } from "../Map/Map.container";
+import { Container, Row, Col } from "react-bootstrap";
+import vote from '../../Images/vote.jpeg';
 import "./Register.css";
 
 export default ({ registrationLinks, isActive }) => (
-	<div className='register'>
-		{/* when the API call is active, display a loading status */}
-		{isActive ? (
-			<div className='register-activity' role='status'>
-				Loading...
-			</div>
-		) : (
-			<div className='register-map'>
-				{/* replace this list with a map component */}
-				{/* <ul>
-                    {registrationLinks.map( (entry, index) =>
-                        <li key={index}>
-                            <a href={entry.url}>{entry.state}</a>
-                        </li>
-                    )}
-                </ul> */}
-				<Map registrationLinks={registrationLinks} />
-			</div>
-		)}
-	</div>
+	<Container
+		fluid
+		style={{ paddingLeft: 0, paddingRight: 0, paddingTop: 0, paddingBottom: 0 }}
+	>
+		<div className='register'>
+			{/* when the API call is active, display a loading status */}
+			{isActive ? (
+				<div className='register-activity' role='status'>
+					Loading...
+				</div>
+			) : 
+				<>
+					<Row><h1>Yes! Your vote counts!</h1></Row>
+					<Col>
+						<Row><h1>Select your state</h1></Row>
+						<p className='description'>
+							{' '}
+							Each state has their own way of running their polls.
+						</p>
+						<p className='description'>
+							{' '}
+							Each state has their own way of running their polls.
+						</p>
+						<p className='description'>
+							No problem, we're going to send you directly to your state's voter
+							registration page.
+						</p>
+						<div className='col-md-6 text-center'>
+							<img src={vote} />
+							<p className='text-to-direct'>Click on your state to begin!</p>
+						</div>
+					</Col>
+					<Col>
+						<div className='col-md-6 text-center'>
+							<Map registrationLinks={registrationLinks} />
+						</div>
+					</Col>
+				</>
+			}
+		</div>
+	</Container>
 );
