@@ -1,0 +1,28 @@
+.voting-stats {
+    background-color: #F1FAEE;
+}
+
+.stats-container-outer {
+    display: flex;
+}
+
+.stats-container-inner {
+    width: 60vw;
+}
+
+.elections-facts {
+    width: 30vw;
+}
+
+.ind-stat {
+    display: flex;
+    align-items: center;
+}
+
+.percentage-circle {
+    padding: 20px;
+    border-radius: 90px;
+    background-color: #436F92;
+    width: 100px;
+    height: 100px;
+} 
