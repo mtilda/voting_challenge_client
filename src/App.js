@@ -4,7 +4,7 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 import VoterStatsContainer from "./components/VoterStats/VoterStats.container";
 import { RegisterContainer } from "./components/Register/Register.container";
 import { SpreadingAwarenessContainer as SpreadingAwareness } from "./components/SpreadingAwareness/SpreadingAwareness.container";
-import VoterTurnout from "./components/VoterTurnout/VoterTurnout"
+import {VoterTurnout} from "./components/VoterTurnout/VoterTurnout"
 import "./App.css";
 
 function App() {
