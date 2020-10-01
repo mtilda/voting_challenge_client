@@ -1,11 +1,9 @@
 import React from "react";
 import { Nav } from "./components/Nav/Nav";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import { VotingStats } from "./components/VotingStats/VotingStats";
-import { RegisterContainer } from "./components/Register/Register.container";
-import { SpreadingAwareness } from "./components/SpreadingAwareness/SpreadingAwareness";
-import { VoterTurnout } from "./components/VoterTurnout/VoterTurnout"
-import { HomeContainer as Home} from "./components/Home/Home.container"
+import { RegisterContainer as Register } from "./components/Register/Register.container";
+import { HomeContainer as Home} from "./components/Home/Home.container";
 import "./App.css";
 
 function App() {
