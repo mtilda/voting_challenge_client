@@ -8,7 +8,7 @@ import {
 	Annotation,
 } from 'react-simple-maps';
 import "./Map.css";
-// import allStates from './data/allstates.json';
+import states from './Data/states.json';
 
 const geoUrl = 'https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json';
 
@@ -40,7 +40,7 @@ const MapChart = ({ registrationLinks }) => {
 						))}
 						{geographies.map((geo) => {
 							const centroid = geoCentroid(geo);
-							const cur = registrationLinks.find((s) => s.val === geo.id);
+							const cur = states.find((s) => s.val === geo.id);
 							return (
 								<g key={geo.rsmKey + '-name'}>
 									{cur &&
