@@ -1,8 +1,10 @@
 import React from "react";
 import { MapContainer as Map } from "../Map/Map.container";
+import {Container, Row, Col} from "react-bootstrap";
 import "./Register.css";
 
 export default ({ registrationLinks, isActive }) => (
+<Container fluid style={{paddingLeft: 0, paddingRight: 0, paddingTop: 0, paddingBottom: 0}}>
 	<div className='register'>
 		{/* when the API call is active, display a loading status */}
 		{isActive ? (
@@ -23,4 +25,5 @@ export default ({ registrationLinks, isActive }) => (
 			</div>
 		)}
 	</div>
+	</Container>
 );
