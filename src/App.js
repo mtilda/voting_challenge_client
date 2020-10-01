@@ -21,8 +21,8 @@ function App() {
       <HashRouter basename="/">
         <Switch>
           <Route path="/voting-stats" component={VotingStats} />
-          <Route path="/register" component={RegisterContainer} />
-          <Route exact path='/' component = { Home } />
+          <Route path="/register" component={Register} />
+          <Route exact path='/' component = {Home} />
           <Route exact path="*">
             <div>
               <h2>404</h2>
