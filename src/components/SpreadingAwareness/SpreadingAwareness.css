@@ -1,19 +1,69 @@
 .spreading-awareness {
   background-color: #1f2e4d;
   color: white;
+  font-family: "Titillium Web", sans-serif;
+  padding: 40px 0 40px 0;
+}
+
+.spreading-awareness h1 {
+  color: #EDF7E9;
+  font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .spreading-awareness img {
   width: 30vw;
+  border-radius: 10px;
 }
+
+
 
 .did-you-know-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .did-you-know-right p {
   padding: 40px;
   background-color: #a1d5d7;
-  width: 500px;
+  border-radius: 10px;
+  color: #1F2E4D;
+
+}
+
+.did-you-know-right h2 {
+  color: #a1d5d7;
+  font-weight: bold;
+  padding: 0 0 10px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .spreading-awareness h1 {
+    font-size: 3rem;
+  }
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .spreading-awareness h1 {
+    font-size: 2rem;
+  }
+
+  .did-you-know-container {
+    display: block;
+  }
+
+  .spreading-awareness img {
+    width: 60vw;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    border-radius: 10px;
+  }
 }
