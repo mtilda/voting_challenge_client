@@ -10,5 +10,8 @@ export const Nav = () => (
     <Link to="/register" className="nav-link">
       Register Now
     </Link>
+    <Link to="/about" className="nav-link">
+      About Us
+    </Link>
   </div>
 );
