@@ -1,8 +1,14 @@
-path {
-    pointer-events: all;
+html {
+    font-family: system-ui, sans-serif;
+    font-size: 1.25rem;
 }
 
-path:hover {
-    opacity: 0.50;
-    cursor: pointer;
+body {
+    margin: 0;
+    padding: 0 1.5rem;
+}
+
+svg {
+    display: inline-block;
+    vertical-align: middle;
 }

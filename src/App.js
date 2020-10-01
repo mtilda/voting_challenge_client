@@ -4,7 +4,6 @@ import { Nav } from "./components/Nav/Nav";
 import { VotingStats } from "./components/VotingStats/VotingStats";
 import { RegisterContainer as Register } from "./components/Register/Register.container";
 import { Home} from "./components/Home/Home";
-import Maps from "./components/Map/Maps"
 import "./App.css";
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
 				<Route path='/voting-stats' component={VotingStats} />
 				<Route path='/register' component={Register} />
 				<Route exact path='/' component={Home} />
-				<Route exact path='/' component={Maps} />
 				<Route exact path='*'>
 					<div>
 						<h2>404</h2>
