@@ -1,6 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Nav.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import logo from "../../Images/logo.png";
+import "./Nav.css";
 
 export const Nav = () => (
 	<div className="nav">
