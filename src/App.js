@@ -5,7 +5,7 @@ import { VotingStats } from "./components/VotingStats/VotingStats";
 import { RegisterContainer } from "./components/Register/Register.container";
 import { SpreadingAwareness } from "./components/SpreadingAwareness/SpreadingAwareness";
 import { VoterTurnout } from "./components/VoterTurnout/VoterTurnout"
-import { HomeContainer as Home} from "./components/Home/Home.container"
+import { Home} from "./components/Home/Home"
 import "./App.css";
 
 function App() {

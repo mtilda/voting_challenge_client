@@ -12,24 +12,33 @@ html {
     width: 100%;
 }
 
+.floating-question {
+    padding: 20px 50px 0 0;;
+    text-align: right;
+}
+
+.red {
+    color: #B51D11;
+}
+
 .text-block{
-    position: absolute;
-    width: 695px;
-    height: 97px;
-    left: 325px;
-    top: 802px;
     font-family: Titillium Web;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
     line-height: 97px;
-    display: flex;
-    align-items: center;
     text-align: center;
+    margin: 0 auto;
+    margin-top: 500px;
     /* dark blue */
     color: #1F2E4D;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
+
+.text-block h4 {
+    margin-bottom: 0px;
+}
+
 .title{
     font-family: Titillium Web;
     font-style: normal;
