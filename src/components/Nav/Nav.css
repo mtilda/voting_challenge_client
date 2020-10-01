@@ -1,4 +1,4 @@
-.nav{
+/* .nav{
   display: block;
   justify-content: space-between;
   float: right;
@@ -15,11 +15,11 @@
   padding-right: 6rem;
   margin-top: 1rem;
   margin-bottom: 10rem;
-  /* identical to box height */
+
 
   text-decoration-line: underline;
 
-  /* dark blue */
+
 
   color: #1F2E4D;
 }
@@ -32,4 +32,8 @@
   margin-top: -6px;
   margin-right: 60rem;
   size: 2rem;
+} */
+
+.l {
+  height: 100px;
 }
