@@ -36,4 +36,41 @@
 
 .l {
   height: 100px;
+  padding-left: 20px;
+}
+
+.nav {
+  display:flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  text-decoration: underline;
+  color: #1F2E4D;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  font-size: 1.3rem;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links a {
+    font-size: 1rem;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-links a {
+    font-size: 0.8rem;
+    padding-right: 10px;
+  }
 }
