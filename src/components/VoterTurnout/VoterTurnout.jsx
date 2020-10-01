@@ -1,16 +1,16 @@
 import React from "react";
 import "./VoterTurnout.css";
 import { ButtonContainer as Button } from "../Button/Button.container";
+import { VoterTurnoutContainer as VoterTurnoutContainer} from "./VoterTurnout.container";
+import { Link } from "react-router-dom";
 
 export const VoterTurnout = () => (
-  <div>
-    <h1>Your Vote Matters!</h1>
-    <img
-      className="turnout-img"
-      src="https://res.cloudinary.com/hannahbannan/image/upload/v1601504019/Voting%20App/Graph2_1_ukcfo6.jpg"
-      alt="Voter turnout numbers"
-    />
-    <br />
-    <Button label="Learn More" />
-  </div>
+	<div>
+		<h1 className='center'>Your Vote Matters!</h1>
+		<VoterTurnoutContainer />
+		<Link to='/voting-stats'>
+			{' '}
+			<Button label='Learn More' />
+		</Link>
+	</div>
 );
