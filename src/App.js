@@ -3,7 +3,8 @@ import { HashRouter, Route, Switch, Link } from "react-router-dom";
 import { Nav } from "./components/Nav/Nav";
 import { VotingStats } from "./components/VotingStats/VotingStats";
 import { RegisterContainer as Register } from "./components/Register/Register.container";
-import { Home} from "./components/Home/Home"
+import { About } from "./components/About/About";
+import { Home } from "./components/Home/Home";
 import "./App.css";
 
 function App() {
@@ -11,21 +12,24 @@ function App() {
     <div className="App">
       <header>
         <div className="header-left">
-          <Link to="/"><h1>Logo</h1></Link>
+          <Link to="/">
+            <h1>Logo</h1>
+          </Link>
           <p>Be heard</p>
         </div>
         <Nav />
       </header>
-        <Switch>
-          <Route path="/voting-stats" component={VotingStats} />
-          <Route path="/register" component={Register} />
-          <Route exact path='/' component = {Home} />
-          <Route exact path="*">
-            <div>
-              <h2>404</h2>
-            </div>
-          </Route>
-        </Switch>
+      <Switch>
+        <Route path="/voting-stats" component={VotingStats} />
+        <Route path="/register" component={Register} />
+        <Route path="/about" component={About} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="*">
+          <div>
+            <h2>404</h2>
+          </div>
+        </Route>
+      </Switch>
       <footer>
         <p>© Runtime Terrors 2020</p>
         <p>Privacy Policy</p>
