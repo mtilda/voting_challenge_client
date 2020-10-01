@@ -11,3 +11,27 @@ html {
     background-size: cover;
 }
 
+.title{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 146px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #1F2E4D;
+
+}
+.text-center{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 73px;
+    /* identical to box height */
+
+
+    color: #1F2E4D;
+}
