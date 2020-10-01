@@ -30,10 +30,6 @@ function App() {
           </div>
         </Route>
       </Switch>
-      <footer>
-        <p>© Runtime Terrors 2020</p>
-        <p>Privacy Policy</p>
-      </footer>
     </div>
   );
 }
