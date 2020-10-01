@@ -2,27 +2,46 @@
     background-color: #F1FAEE;
 }
 
+.voting-stats h1 {
+    color: #1F2E4D;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 40px 0 20px 0;
+}
+
 .stats-container-outer {
     display: flex;
 }
 
-.stats-container-inner {
-    width: 60vw;
-}
 
 .elections-facts {
-    width: 30vw;
+    margin: 20px;
+    color: #1F2E4D;
+    background-color: rgba(67, 111, 146, 0.1);
+    padding: 5px 10px 5px 0;
 }
 
 .ind-stat {
     display: flex;
     align-items: center;
+    color: #1F2E4D;
 }
 
 .percentage-circle {
-    padding: 20px;
     border-radius: 90px;
     background-color: #436F92;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
+    color: #EDF7E9;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
 } 
+
+@media screen and (max-width: 768px) {
+    .stats-container-outer {
+        display: block;
+    }
+}
