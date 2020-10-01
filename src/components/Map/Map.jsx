@@ -4,7 +4,7 @@ import "./Map.css";
 import vote from '../../Images/vote.jpeg';
 
 export default ({ registrationLinks, mapHandler, statesFilling }) => (
-	<div className='App'>
+	<div className='App-txt'>
 		<h1 className='txt'>Yes! Your vote counts!</h1>
 		<div class='modal-body row'>
 			<div className='col-md-6 text-center'>
