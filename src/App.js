@@ -1,21 +1,22 @@
 import React from "react";
+import { HashRouter, Route, Switch, Link } from "react-router-dom";
 import { Nav } from "./components/Nav/Nav";
-import { Route, Switch } from "react-router-dom";
 import { VotingStats } from "./components/VotingStats/VotingStats";
 import { RegisterContainer as Register } from "./components/Register/Register.container";
-import { HomeContainer as Home} from "./components/Home/Home.container";
+import { Home} from "./components/Home/Home"
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-        <header>
-          <div className="header-left">
-            <h1>Logo</h1>
-            <p>Be heard</p>
-          </div>
-          <Nav />
-        </header>
+      <header>
+        <div className="header-left">
+          <Link to="/"><h1>Logo</h1></Link>
+          <p>Be heard</p>
+        </div>
+        <Nav />
+      </header>
+      <HashRouter basename="/">
         <Switch>
           <Route path="/voting-stats" component={VotingStats} />
           <Route path="/register" component={Register} />

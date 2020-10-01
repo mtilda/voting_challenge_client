@@ -1,14 +1,19 @@
 import React from "react";
 import img from "../../Images/cover_page.jpeg";
+import {SpreadingAwareness} from "../SpreadingAwareness/SpreadingAwareness";
+import {VoterTurnout} from "../VoterTurnout/VoterTurnout";
+import {ButtonContainer as Button} from "../Button/Button.container";
 import "./Home.css";
 import { FaRegEdit, FaBookOpen, FaMapMarked, FaRegAddressCard, FaVoteYea } from "react-icons/fa";
 
-export default () => (
-    <>
+export const Home = () => (
+    <div className="home">
         <div className="bg">
+            <h2 className="floating-question">Have <span className="red">YOU</span> registered to <span className="red">VOTE</span>?</h2>
             <div class="text-block">
                 <h4>Let Your Voice be heard!</h4>
-            </div>
+                <Button label="Register Now"/>
+            </div> 
         </div>
         <h1 className="title">
             How to Vote
@@ -29,5 +34,7 @@ export default () => (
             <FaVoteYea size={59} color="#DA313C"/>
             <span className="text-center"> Vote!!</span>
         </div>
-    </>
+        <SpreadingAwareness />
+        <VoterTurnout />
+    </div>
 )
