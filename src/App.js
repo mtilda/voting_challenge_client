@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav } from "./components/Nav/Nav";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch, Link } from "react-router-dom";
 import { VotingStats } from "./components/VotingStats/VotingStats";
 import { RegisterContainer } from "./components/Register/Register.container";
 import { SpreadingAwareness } from "./components/SpreadingAwareness/SpreadingAwareness";
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <header>
         <div className="header-left">
-          <h1>Logo</h1>
+          <Link to="/"><h1>Logo</h1></Link>
           <p>Be heard</p>
         </div>
         <Nav />
