@@ -8,7 +8,9 @@ export const VotingStats = () => {
         <Container fluid style={{paddingLeft: 0, paddingRight: 0, paddingTop: 0, paddingBottom: 0}}>
         <div className="voting-stats">
            <h1>DID YOU KNOW?</h1> 
-           <h2 className="centered">Voters age 18-29</h2>
+           <div className="center">
+           <h2>Voters age 18-29</h2>
+           </div>
            <p>*who registered but did not vote in 2016</p>
            <Row>
                <Col></Col>
