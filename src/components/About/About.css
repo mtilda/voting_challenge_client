@@ -4,16 +4,15 @@
 }
 
 .mission-container {
-    display: flex;
-    width: 80vw;
-    margin: 0 auto;
     background-color: #A1D5D7;
-    padding: 20px;
     border-radius: 10px;
+    display: flex;
+    padding: 20px;
 }
 
 .mission-container img {
     width: 30vw;
+    height: auto;
 }
 
 .mission-text {
