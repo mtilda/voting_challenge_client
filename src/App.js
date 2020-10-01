@@ -22,7 +22,7 @@ function App() {
         <Switch>
           <Route path="/voting-stats" component={VotingStats} />
           <Route path="/register" component={RegisterContainer} />
-          <Route exact path="/" />
+          <Route exact path='/' component = { Home } />
           <Route exact path="*">
             <div>
               <h2>404</h2>
