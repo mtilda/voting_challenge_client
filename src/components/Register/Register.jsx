@@ -1,4 +1,3 @@
-import { map } from "leaflet";
 import React from "react";
 import Map from "../Map/Map";
 import "./Register.css";
