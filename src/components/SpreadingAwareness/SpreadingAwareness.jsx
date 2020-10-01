@@ -2,7 +2,7 @@ import React from "react";
 import { ButtonContainer as Button } from "../Button/Button.container";
 import "./SpreadingAwareness.css";
 
-export default () => (
+export const SpreadingAwareness = () => (
   <div className="spreading-awareness">
     <h1>Spreading Awareness</h1>
     <div className="did-you-know-container">
