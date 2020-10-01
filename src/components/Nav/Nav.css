@@ -24,3 +24,12 @@
   color: #1F2E4D;
 }
 
+.l{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+  margin-right: 60rem;
+  size: 2rem;
+}
