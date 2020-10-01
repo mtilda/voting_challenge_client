@@ -2,7 +2,7 @@ import React from "react";
 import "./VoterTurnout.css";
 import { ButtonContainer as Button } from "../Button/Button.container";
 
-export default () => (
+export const VoterTurnout = () => (
   <div>
     <h1>Your Vote Matters!</h1>
     <img
