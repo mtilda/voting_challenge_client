@@ -1,3 +1,38 @@
 .turnout-img {
   width: 60vw;
 }
+
+.col-md-9{
+  align-items: center;
+  justify-content: center;
+}
+.center{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 110px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* dark blue */
+
+  color: #1F2E4D;
+}
+.election{
+font-family: Titillium Web;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+
+
+/* light green */
+color: #1F2E4D;
+}
+
