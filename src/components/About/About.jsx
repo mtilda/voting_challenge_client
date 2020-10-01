@@ -4,7 +4,7 @@ import "./About.css";
 
 export const About = () => {
   return (
-    <Container fluid>
+    <Container fluid style={{paddingLeft: 0, paddingRight: 0}}>
       <div className="about">
         <Row>
           <h1>About Us</h1>
