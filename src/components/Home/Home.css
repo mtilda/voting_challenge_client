@@ -3,6 +3,10 @@ html {
     height: 100%;
 }
 
+.home {
+    margin-bottom: 100px;
+}
+
 .bg {
     background-image: url("../../Images/cover_page.jpeg");
     height: 90vh;
