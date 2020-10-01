@@ -3,7 +3,7 @@ import USAMap from 'react-usa-map';
 import "./Map.css";
 import vote from '../../Images/vote.jpeg';
 
-export default ({ registrationLinks, mapHandler }) => (
+export default ({ mapHandler }) => (
 	<div className='App'>
 		<h1 className='txt'>Yes! Your vote counts!</h1>
 		<div class='modal-body row'>
@@ -27,18 +27,5 @@ export default ({ registrationLinks, mapHandler }) => (
 				<USAMap onClick={mapHandler} />
 			</div>
 		</div>
-		{/* <div class='modal-body row'>
-			<div className='col-md-6 text-center'>
-				<img src={vote} />
-			</div>
-		</div> */}
-		<p>
-			{registrationLinks.map((entry, index) => (
-				<span key={index}>
-					{' '}
-					<a href={entry.url}>{entry.state}</a>
-				</span>
-			))}
-		</p>
 	</div>
 );
