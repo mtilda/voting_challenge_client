@@ -1,11 +1,35 @@
-.nav {
-  display: flex;
+.nav{
+  display: block;
   justify-content: space-between;
-  padding-right: 50px;
+  float: right;
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 55px;
+  float: right;
+  left: 38.82%;
+  right: 51.32%;
+  top: 26.79%;
+  bottom: 24.11%;
+  padding-right: 6rem;
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  /* dark blue */
+
+  color: #1F2E4D;
 }
 
-.nav-link {
-    text-decoration: none;
-    color: black;
-    padding: 0 20px 0 20px;
+.l{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+  margin-right: 60rem;
+  size: 2rem;
 }
