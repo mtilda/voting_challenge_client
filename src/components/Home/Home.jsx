@@ -30,10 +30,14 @@ export const Home = () => (
 				</Link>
 			</div>
 		</div>
-		<h1 className='title'>How to Vote</h1>
+        <Row>
+            <Col></Col>
+            <Col xs="10">
+                <div className="how-to-vote">
+		<h1>How to Vote</h1>
 		<div className='text-center'>
 			<FaRegEdit size={59} color='#DA313C' />
-			<span className='text-center'> Register to vote with your state</span>
+			<span className='text-center'> <Link to="/register">Register</Link> to vote with your state</span>
 		</div>
 		<div className='text-center'>
 			<FaMapMarked size={59} color='#DA313C' />
@@ -50,6 +54,10 @@ export const Home = () => (
 			<FaVoteYea size={59} color='#DA313C' />
 			<span className='text-center'> Vote!!</span>
 		</div>
+        </div>
+        </Col>
+        <Col></Col>
+        </Row>
 		<SpreadingAwareness />
 		<VoterTurnout />
 	</div>
