@@ -1,0 +1,19 @@
+.spreading-awareness {
+  background-color: #1f2e4d;
+  color: white;
+}
+
+.spreading-awareness img {
+  width: 30vw;
+}
+
+.did-you-know-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.did-you-know-right p {
+  padding: 40px;
+  background-color: #a1d5d7;
+  width: 500px;
+}
