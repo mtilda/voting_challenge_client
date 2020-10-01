@@ -10,80 +10,104 @@ export const About = () => {
           <h1>About Us</h1>
         </Row>
         <Row>
-          <Col ></Col>
-          <Col sm="8" >
+          <Col></Col>
+          <Col xs="10">
             <div className="mission-container">
-              <img
-                src="https://res.cloudinary.com/hannahbannan/image/upload/v1601563849/Voting%20App/parker-johnson-v0OWc_skg0g-unsplash_1_w3depr.png"
-                alt="I Voted!"
-              />
-              <div className="mission-text">
-                <h3>Our Mission...</h3>
-                <p>
-                  We want to encourage young people to get involved and use
-                  their right to vote in order to be the change they want to
-                  see.
-                </p>
+              <Col xs="4">
+                <img
+                  src="https://res.cloudinary.com/hannahbannan/image/upload/v1601563849/Voting%20App/parker-johnson-v0OWc_skg0g-unsplash_1_w3depr.png"
+                  alt="I Voted!"
+                />
+              </Col>
+              <Col xs="1"></Col>
+              <Col>
+                <div className="mission-text">
+                  <h3>Our Mission...</h3>
+                  <p>
+                    We want to encourage young people to get involved and use
+                    their right to vote in order to be the change they want to
+                    see.
+                  </p>
+                </div>
+              </Col>
+            </div>
+          </Col>
+          <Col></Col>
+        </Row>
+        <Row>
+          <Col></Col>
+          <Col xs="8" sm="6">
+            <h5 className="about-blurb">
+              By spreading awareness, providing tools, and teaching young people
+              how to vote, we can make a difference.
+            </h5>
+          </Col>
+          <Col></Col>
+        </Row>
+        <Row>
+          <h1>Meet Our Team</h1>
+        </Row>
+        <Row>
+          <Col></Col>
+          <Col>
+            <div className="team-row">
+              <div className="team-ind">
+                <img
+                  src="https://res.cloudinary.com/hannahbannan/image/upload/v1601564108/Voting%20App/20200821_160142_1_sh09ix.png"
+                  alt="Kay Vail"
+                />
+                <br />
+                <a href="https://www.linkedin.com/in/kayvail/" target="_blank">
+                  Kay Vail
+                </a>
+                <p>Full Stack Developer</p>
+              </div>
+              <div className="team-ind">
+                <img
+                  src="https://res.cloudinary.com/hannahbannan/image/upload/v1601564213/Voting%20App/IMG-8119-Original_1_xxjlwp.png"
+                  alt="Jyoti Shinde"
+                />
+                <br />
+                <a
+                  href="https://www.linkedin.com/in/jyoti-shinde/"
+                  target="_blank"
+                >
+                  Jyoti Shinde
+                </a>
+                <p>Full Stack Developer</p>
+              </div>
+              <div className="team-ind">
+                <img
+                  src="https://res.cloudinary.com/hannahbannan/image/upload/v1601564281/Voting%20App/Sean_1_vcwitf.png"
+                  alt="Sean O'Brien"
+                />
+                <br />
+                <a
+                  href="https://www.linkedin.com/in/sean-t-obrien/"
+                  target="_blank"
+                >
+                  Sean O'Brien
+                </a>
+                <p>Full Stack Developer</p>
+              </div>
+              <div className="team-ind">
+                <img
+                  src="https://res.cloudinary.com/hannahbannan/image/upload/v1601564366/Voting%20App/HB_Headshot_1_yyakls.png"
+                  alt="Hannah Bannan"
+                />
+                <br />
+                <a
+                  href="https://www.linkedin.com/in/hannahbannan/"
+                  target="_blank"
+                >
+                  Hannah Bannan
+                </a>
+                <p>Front End Developer</p>
               </div>
             </div>
           </Col>
-
-          <Col ></Col>
+          <Col></Col>
         </Row>
-        <h5>
-          By spreading awareness, providing tools, and teaching young people how
-          to vote, we can make a difference.
-        </h5>
-        <h2>Meet Our Team</h2>
-        <div className="team-row">
-          <div className="team-ind">
-            <img
-              src="https://res.cloudinary.com/hannahbannan/image/upload/v1601564108/Voting%20App/20200821_160142_1_sh09ix.png"
-              alt="Kay Vail"
-            />
-            <br />
-            <a href="https://www.linkedin.com/in/kayvail/" target="_blank">
-              Kay Vail
-            </a>
-            <p>Full Stack Developer</p>
-          </div>
-          <div className="team-ind">
-            <img
-              src="https://res.cloudinary.com/hannahbannan/image/upload/v1601564213/Voting%20App/IMG-8119-Original_1_xxjlwp.png"
-              alt="Jyoti Shinde"
-            />
-            <br />
-            <a href="https://www.linkedin.com/in/jyoti-shinde/" target="_blank">
-              Jyoti Shinde
-            </a>
-            <p>Full Stack Developer</p>
-          </div>
-          <div className="team-ind">
-            <img
-              src="https://res.cloudinary.com/hannahbannan/image/upload/v1601564281/Voting%20App/Sean_1_vcwitf.png"
-              alt="Sean O'Brien"
-            />
-            <br />
-            <a
-              href="https://www.linkedin.com/in/sean-t-obrien/"
-              target="_blank"
-            >
-              Sean O'Brien
-            </a>
-            <p>Full Stack Developer</p>
-          </div>
-          <div className="team-ind">
-            <img
-              src="https://res.cloudinary.com/hannahbannan/image/upload/v1601564366/Voting%20App/HB_Headshot_1_yyakls.png"
-              alt="Hannah Bannan"
-            />
-            <br />
-            <a href="https://www.linkedin.com/in/hannahbannan/" target="_blank">
-              Hannah Bannan
-            </a>
-            <p>Front End Developer</p>
-          </div>
-        </div>
         <div className="team-row">
           <div className="team-ind">
             <img
