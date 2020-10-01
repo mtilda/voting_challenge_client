@@ -1,5 +1,5 @@
 import React from "react";
-import { NavContainer as Nav } from "./components/Nav/Nav.container";
+import {  Nav } from "./components/Nav/Nav";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import VoterStatsContainer from "./components/VoterStats/VoterStats.container";
 import { RegisterContainer } from "./components/Register/Register.container";
@@ -22,7 +22,7 @@ function App() {
         <Switch>
           <Route path="/voter-stats" component={VoterStatsContainer} />
           <Route path="/register" component={RegisterContainer} />
-          <Route exact path="/" component={SpreadingAwareness} />
+          <Route exact path="/" />
           <Route exact path="*">
             <div>
               <h2>404</h2>

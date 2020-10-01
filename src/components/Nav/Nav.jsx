@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
-export default () => (
+export const Nav = () => (
   <div className="nav">
     <Link to="/voter-stats" className="nav-link">
       Voting Statistics
