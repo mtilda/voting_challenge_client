@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../../Images/cover_page.jpeg";
+import { Link } from 'react-router-dom';
 import {SpreadingAwareness} from "../SpreadingAwareness/SpreadingAwareness";
 import {VoterTurnout} from "../VoterTurnout/VoterTurnout";
 import {ButtonContainer as Button} from "../Button/Button.container";

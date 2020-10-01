@@ -1,19 +1,44 @@
 import React, { Component } from 'react';
 import USAMap from 'react-usa-map';
+import "./Map.css";
+import vote from '../../Images/vote.jpeg';
 
-export default ({registrationLinks, mapHandler, statesFilling}) =>  {
-
-		return (
-			<div className='App'>
-				<h1>Choose Your State</h1>
-				<USAMap customize={statesFilling()} onClick={mapHandler} />
-				<p>
-					{registrationLinks.map((entry, index) => (
-						<span key={index}> {' '}
-							<a href={entry.url}>{entry.state}</a>
-						</span>
-					))}
+export default ({ registrationLinks, mapHandler, statesFilling }) => (
+	<div className='App'>
+		<h1 className='txt'>Yes! Your vote counts!</h1>
+		<div class='modal-body row'>
+			<div className='col-md-6 text-center'>
+				<h1 className='txt'>Select your state</h1>
+				<p className='description'>
+					{' '}
+					Each state has their own way of running their polls.
 				</p>
+				<p className='description'>
+					No problem, we're going to send you directly to your state's voter
+					registration page.
+				</p>
+				<div className='col-md-6 text-center'>
+					<img src={vote} />
+					<p className='text-to-direct'>Click on your state to begin!</p>
+				</div>
 			</div>
-		);
-	}
+
+			<div className='col-md-6 text-center'>
+				<USAMap customize={statesFilling()} onClick={mapHandler} />
+			</div>
+		</div>
+		{/* <div class='modal-body row'>
+			<div className='col-md-6 text-center'>
+				<img src={vote} />
+			</div>
+		</div> */}
+		<p>
+			{registrationLinks.map((entry, index) => (
+				<span key={index}>
+					{' '}
+					<a href={entry.url}>{entry.state}</a>
+				</span>
+			))}
+		</p>
+	</div>
+);
