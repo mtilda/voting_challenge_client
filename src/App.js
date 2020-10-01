@@ -3,7 +3,7 @@ import {NavContainer as Nav} from "./components/Nav/Nav.container";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import VoterStatsContainer from "./components/VoterStats/VoterStats.container";
-import {RegisterContainer} from "./components/Register/Register.container";
+import { RegisterContainer as Register } from "./components/Register/Register.container";
 import {FooterContainer as Footer} from "./components/Footer/Footer.container";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <HashRouter basename="/">
         <Switch>
           <Route path="/voter-stats" component={VoterStatsContainer} />
-          <Route path="/register" component={RegisterContainer} />
+          <Route path="/register" component={Register} />
           <Route exact path="/">
             <div>
               <h2>Home</h2>
