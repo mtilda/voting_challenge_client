@@ -9,14 +9,13 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header>
-        <div className="header-left">
-          <h1>Logo</h1>
-          <p>Be heard</p>
-        </div>
-        <Nav />
-      </header>
-      <HashRouter basename="/">
+        <header>
+          <div className="header-left">
+            <h1>Logo</h1>
+            <p>Be heard</p>
+          </div>
+          <Nav />
+        </header>
         <Switch>
           <Route path="/voting-stats" component={VotingStats} />
           <Route path="/register" component={Register} />
@@ -27,7 +26,6 @@ function App() {
             </div>
           </Route>
         </Switch>
-      </HashRouter>
       <footer>
         <p>© Runtime Terrors 2020</p>
         <p>Privacy Policy</p>
