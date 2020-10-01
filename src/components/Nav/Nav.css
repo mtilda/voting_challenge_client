@@ -1,4 +1,4 @@
-.nav{
+/* .nav{
   display: block;
   justify-content: space-between;
   float: right;
@@ -15,11 +15,11 @@
   padding-right: 6rem;
   margin-top: 1rem;
   margin-bottom: 10rem;
-  /* identical to box height */
+
 
   text-decoration-line: underline;
 
-  /* dark blue */
+
 
   color: #1F2E4D;
 }
@@ -32,4 +32,45 @@
   margin-top: -6px;
   margin-right: 60rem;
   size: 2rem;
+} */
+
+.l {
+  height: 100px;
+  padding-left: 20px;
+}
+
+.nav {
+  display:flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  text-decoration: underline;
+  color: #1F2E4D;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  font-size: 1.3rem;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links a {
+    font-size: 1rem;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-links a {
+    font-size: 0.8rem;
+    padding-right: 10px;
+  }
 }
