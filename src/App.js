@@ -5,7 +5,6 @@ import VoterStatsContainer from "./components/VoterStats/VoterStats.container";
 import { RegisterContainer } from "./components/Register/Register.container";
 import { SpreadingAwarenessContainer as SpreadingAwareness } from "./components/SpreadingAwareness/SpreadingAwareness.container";
 import { VoterTurnoutContainer as VoterTurnout } from "./components/VoterTurnout/VoterTurnout.container";
-import { FooterContainer as Footer } from "./components/Footer/Footer.container";
 import "./App.css";
 
 function App() {
@@ -30,7 +29,10 @@ function App() {
           </Route>
         </Switch>
       </HashRouter>
-      <Footer/>
+      <footer>
+        <p>© Runtime Terrors 2020</p>
+        <p>Privacy Policy</p>
+      </footer>
     </div>
   );
 }

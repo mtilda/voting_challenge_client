@@ -13,9 +13,25 @@ header {
   background-color: #A1D5D7;
 }
 
+
 .header-left {
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 50vw;
+}
+
+footer {
+  background-color: #A1D5D7;
+  height: 100px;
+  width: 100vw;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  padding: 0 40px 0 40px;
 }
