@@ -1,7 +1,7 @@
 import React from "react";
 import {  Nav } from "./components/Nav/Nav";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import VoterStatsContainer from "./components/VoterStats/VoterStats.container";
+import {VotingStats} from "./components/VotingStats/VotingStats";
 import { RegisterContainer } from "./components/Register/Register.container";
 import { SpreadingAwareness } from "./components/SpreadingAwareness/SpreadingAwareness";
 import {VoterTurnout} from "./components/VoterTurnout/VoterTurnout"
@@ -20,7 +20,7 @@ function App() {
       </header>
       <HashRouter basename="/">
         <Switch>
-          <Route path="/voter-stats" component={VoterStatsContainer} />
+          <Route path="/voting-stats" component={VotingStats} />
           <Route path="/register" component={RegisterContainer} />
           <Route exact path="/" />
           <Route exact path="*">
