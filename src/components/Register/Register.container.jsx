@@ -28,9 +28,6 @@ export const RegisterContainer = () => {
 
 		fetch().catch((error) => console.error(error));
     }, []);
-const mapHandler = (event) => {
-	alert(event.target.dataset.name);
-};
 
-	return <Register registrationLinks={registrationLinks} isActive={isActive} mapHandler = {mapHandler} />;
+	return <Register registrationLinks={registrationLinks} isActive={isActive} />;
 };

@@ -2,7 +2,7 @@ import React from "react";
 import Map from "../Map/Map";
 import "./Register.css";
 
-export default ({ registrationLinks, isActive, mapHandler }) => (
+export default ({ registrationLinks, isActive }) => (
 	<div className='register'>
 		{/* when the API call is active, display a loading status */}
 		{isActive ? (
@@ -19,7 +19,7 @@ export default ({ registrationLinks, isActive, mapHandler }) => (
                         </li>
                     )}
                 </ul> */}
-				<Map registrationLinks={registrationLinks} mapHandler = {mapHandler} />
+				<Map registrationLinks={registrationLinks} />
 			</div>
 		)}
 	</div>
