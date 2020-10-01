@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import USAMap from 'react-usa-map';
+import USAMap from "react-usa-map";
 import "./Map.css";
 import vote from '../../Images/vote.jpeg';
 
