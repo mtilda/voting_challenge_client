@@ -32,16 +32,5 @@ const mapHandler = (event) => {
 	alert(event.target.dataset.name);
 };
 
-const statesFilling = () => {
-	return {
-		NJ: {
-			fill: 'navy',
-			clickHandler: () => alert('Custom callback for the NJ state'),
-		},
-		NY: {
-			fill: '#CC0000',
-		},
-	};
-};
-	return <Register registrationLinks={registrationLinks} isActive={isActive} mapHandler = {mapHandler} statesFilling = {statesFilling}/>;
+	return <Register registrationLinks={registrationLinks} isActive={isActive} mapHandler = {mapHandler} />;
 };

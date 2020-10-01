@@ -3,7 +3,7 @@ import USAMap from 'react-usa-map';
 import "./Map.css";
 import vote from '../../Images/vote.jpeg';
 
-export default ({ registrationLinks, mapHandler, statesFilling }) => (
+export default ({ registrationLinks, mapHandler }) => (
 	<div className='App'>
 		<h1 className='txt'>Yes! Your vote counts!</h1>
 		<div class='modal-body row'>
@@ -24,7 +24,7 @@ export default ({ registrationLinks, mapHandler, statesFilling }) => (
 			</div>
 
 			<div className='col-md-6 text-center'>
-				<USAMap customize={statesFilling()} onClick={mapHandler} />
+				<USAMap onClick={mapHandler} />
 			</div>
 		</div>
 		{/* <div class='modal-body row'>
