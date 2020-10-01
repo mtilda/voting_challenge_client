@@ -1,5 +1,5 @@
 import React from "react";
-import Map from "../Map/Map";
+import { MapContainer as Map } from "../Map/Map.container";
 import "./Register.css";
 
 export default ({ registrationLinks, isActive }) => (
