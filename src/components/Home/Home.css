@@ -19,10 +19,14 @@ html {
 .floating-question {
     padding: 20px 50px 0 0;;
     text-align: right;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 .red {
     color: #B51D11;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .text-block{
@@ -41,6 +45,8 @@ html {
 
 .text-block h4 {
     margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 3rem;
 }
 
 .title{
