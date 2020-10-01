@@ -17,7 +17,7 @@ export const RegisterContainer = () => {
 				response.data.feed.entry.map((entry) => {
 					return {
 						state: entry.gsx$state.$t,
-						abbreviation: entry.gsx$state.$t,
+						abbreviation: entry.gsx$abbreviation.$t,
 						url: entry.gsx$registrationurl.$t,
 					};
 				})
