@@ -8,12 +8,12 @@
 }
 
 .did-you-know-container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .did-you-know-right p {
-    padding: 40px;
-    background-color: #a1D5D7;
-    width: 500px;
+  padding: 40px;
+  background-color: #a1d5d7;
+  width: 500px;
 }

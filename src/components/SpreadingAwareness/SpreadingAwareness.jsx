@@ -1,5 +1,5 @@
 import React from "react";
-import {ButtonContainer as Button} from "../Button/Button.container"
+import { ButtonContainer as Button } from "../Button/Button.container";
 import "./SpreadingAwareness.css";
 
 export default () => (
@@ -11,15 +11,15 @@ export default () => (
         alt="Talk to your friends about voting!"
       />
       <div className="did-you-know-right">
-      <h2>Did you know?</h2>
-      <p>
-        According to the US Election Project, only 43% of voters age 18-29
-        participated in the 2016 Election
-      </p>
+        <h2>Did you know?</h2>
+        <p>
+          According to the US Election Project, only 43% of voters age 18-29
+          participated in the 2016 Election
+        </p>
       </div>
     </div>
     <h1>Your Vote. Your Voice.</h1>
     <h1>Make it Count!</h1>
-    <Button label="Learn More"/>
+    <Button label="Learn More" />
   </div>
 );

@@ -28,10 +28,7 @@ function App() {
           </Route>
         </Switch>
       </HashRouter>
-      <div className="main">
-     <SpreadingAwareness/>
-      <VotingStats/>
-      </div>
+      <Footer />
     </div>
   );
 }

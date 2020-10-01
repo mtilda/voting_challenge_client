@@ -1,9 +1,6 @@
-import React from 'react'
+import React from "react";
+import VoterTurnout from "./VoterTurnout";
 
-export default function VoterTurnoutContainer() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+export const VoterTurnoutContainer = () => {
+  return <VoterTurnout />;
+};
