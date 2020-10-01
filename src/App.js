@@ -16,7 +16,6 @@ function App() {
         </div>
         <Nav />
       </header>
-      <HashRouter basename="/">
         <Switch>
           <Route path="/voting-stats" component={VotingStats} />
           <Route path="/register" component={Register} />
