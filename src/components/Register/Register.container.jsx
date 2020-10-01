@@ -5,7 +5,6 @@ import Register from './Register';
 export const RegisterContainer = () => {
 	const [registrationLinks, setRegistrationLinks] = useState([]);
     const [isActive, setIsActive] = useState(false); // when this is true, display a loading status indicator
-    const [state, setState] = useState(false);
 
 	useEffect(() => {
 		const sheetAsJson =
