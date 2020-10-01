@@ -5,6 +5,7 @@ import VoterStatsContainer from "./components/VoterStats/VoterStats.container";
 import { RegisterContainer } from "./components/Register/Register.container";
 import { SpreadingAwarenessContainer as SpreadingAwareness } from "./components/SpreadingAwareness/SpreadingAwareness.container";
 import { VoterTurnoutContainer as VoterTurnout } from "./components/VoterTurnout/VoterTurnout.container";
+import { FooterContainer as Footer } from "./components/Footer/Footer.container";
 import "./App.css";
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
         <Switch>
           <Route path="/voter-stats" component={VoterStatsContainer} />
           <Route path="/register" component={RegisterContainer} />
-          <Route exact path="/"></Route>
+          <Route exact path="/" component={SpreadingAwareness} />
           <Route exact path="*">
             <div>
               <h2>404</h2>
@@ -29,10 +30,7 @@ function App() {
           </Route>
         </Switch>
       </HashRouter>
-      <div>
-        <SpreadingAwareness />
-        <VoterTurnout />
-      </div>
+      <Footer/>
     </div>
   );
 }

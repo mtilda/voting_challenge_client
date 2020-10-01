@@ -1,9 +1,8 @@
 import React from "react";
+import "./Footer.css";
 
-export default function Footer() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+export default () =>
+  <div className="footer">
+    <p>© Runtime Terrors 2020</p>
+    <p>Privacy Policy</p>
+  </div>;
